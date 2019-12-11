@@ -2,8 +2,19 @@
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+/*
+  Toda la informacion de apikey lo traemos desde firebase
+*/
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyCNyK1Nw754O2PuPS-Ax7S_gZEoE9vSVxg",
+    authDomain: "listacurso-7ef41.firebaseapp.com",
+    databaseURL: "https://listacurso-7ef41.firebaseio.com",
+    projectId: "listacurso-7ef41",
+    storageBucket: "listacurso-7ef41.appspot.com",
+    messagingSenderId: "201997254157"
+  }
 };
 
 /*
